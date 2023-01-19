@@ -1,9 +1,39 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  let newWord = ""
+
+  let i = word.length - 1
+
+
+  while (i >=0) {
+    newWord = newWord + word[i]
+    i--
+    console.log(newWord)
+  }
+
+  
+
+  if (newWord.toLowerCase() === word.toLowerCase()) {
+    return true
+  } else {
+    return false
+  }
+
+  
 }
+
+
 
 /* 
   Add your pseudocode here
+  Create an empty newWord
+  Assign i to word.length-1
+  while i >= 0
+
+  i++
+
+if newWord ===
+
+
 */
 
 /*
